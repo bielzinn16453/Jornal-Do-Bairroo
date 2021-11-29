@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html body{
+    height: 100%;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -50%;
+    right: -50%;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-media{
+    position:absolute;
+    right: 1000px;
+    top: 200px;
+    max-width: 50px;
+
+    
+}
+
+.social-media img{
+    display: block;
+    width: 60px;
+    margin: 20px 0;
+}
+
+.texto-sobre {
+    margin-top: 60px;
+}
+.texto-sobre {
+    font-size: 30px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
